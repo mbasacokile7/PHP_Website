@@ -1,0 +1,13 @@
+body{
+    background-image: url("./PHP_website_background-02.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar-custom{
+    background-color: #A7AAAA !important;
+    
+}
+.navbar-custom .navbar-text {
+    color: green !important;
+}
