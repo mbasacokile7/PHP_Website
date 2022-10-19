@@ -4,10 +4,97 @@ body{
     text-align: center;
 }
 
+/*-----------------------Landing Page-----------------------*/
+
 .navbar-custom{
     background-color: #A7AAAA !important;
     
 }
-.navbar-custom .navbar-text {
-    color: green !important;
+.navbar a{
+    color: white !important;
+    font-family: 'Allerta Stencil', sans-serif;
 }
+
+.custom-toggler.navbar-toggler-icon {
+    border-color: rgb(255,102,203) !important;
+} 
+
+.navbar-nav a:hover{
+    color: #AF883A !important;
+}
+
+/*-----------------------Landing Page-----------------------*/
+#Landing-Page{
+    margin-top: 50px;
+    height: 100vh;
+}
+.landing-page-main{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 0 50px;
+    border-radius: 25px;
+}
+.landing-page-heading{
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    color: #353333;;
+}
+
+.landing-page-heading:hover{
+    color: #AF883A;
+}
+
+.landing-page-info{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+/*-----------------------Services Page-----------------------*/
+#Services{
+    margin-bottom: 30px;
+}
+.services-page{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 0 50px 0 50px;
+    padding: 50px 0 80px 0;
+    border-radius: 25px;
+}
+
+.services-heading{
+    font-family: 'Kanit', sans-serif;
+    color: #353333;
+}
+
+.services-text{
+    font-family: 'Inter', sans-serif;
+}
+
+.feature-title{
+    font-family: 'Kanit', sans-serif;
+    margin-top:5px;
+}
+
+.services-icon:hover{
+    color: #AF883A;
+}
+
+
+
+/*-----------------------Footer-----------------------*/
+.footer-icon{
+    margin: 0 5px 0 5px;
+}
+
+.footer-icon:hover{
+    color: #AF883A;
+}
+
+.footer-text{
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/*-----------------------Media Queries-----------------------*/

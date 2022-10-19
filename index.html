@@ -9,37 +9,139 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Inter:wght@300;400&family=Kanit:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-custom navbar-expand-lg" >
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar sticky-top navbar-custom navbar-expand-lg navbar-light " >
+        <a class="navbar-brand" href="#">
+          Personal Happiness Papers</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="stroke: white;"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto nav-items-list">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Products<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
             </li>
+            
           </ul>
         </div>
       </nav>
-    <h1>Hello World</h1>
-
     
+      <!------------------------------Landing Page Section------------------------------>
+    <section id="Landing-Page">
+        <div class="landing-page-main">
+          <div class="container-fluid">
+            <div class="row d-flex flex-wrap align-items-center">
+              <div class="col-md-6 laning-page-image">
+                <img class = "Lion_Head_Design"src="Lion-Head-Design-01.png" alt="Lion-Head_design" width="450"height="450" >
+              </div>
+              <div class="col-md-6 laning-page-text">
+                <h1 class="landing-page-heading"> Personal Happiness Papers</h1>
+                <br>
+                <p class="landing-page-info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. 
+                   Urna duis convallis convallis tellus id interdum velit. 
+                   Proin sed libero enim sed faucibus.
+                </p>
+                <br>
+                <button type="button" class="btn btn-outline-light">Learn More!</button>
+
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+      <section id="Services">
+
+        <div class="services-page">
+          <h1 class="services-heading">Here is what we offer</h1>
+          <br>
+          <p class="services-text">
+            Fames ac turpis egestas maecenas. 
+            Amet commodo nulla facilisi nullam vehicula ipsum a. 
+            Mauris nunc congue nisi vitae suscipit tellus mauris a diam. 
+            Donec massa sapien faucibus et.
+          </p>
+          <br>
+          <div class="container-fluid">
+
+            <div class="row">
+              <div class="feature-box col-lg-4">
+                <i class="icon fas fa-check-circle fa-4x services-icon"></i>
+                <h3 class="feature-title">Easy to use.</h3>
+                <p class="services-text">Fames ac turpis egestas maecenas. 
+                  Amet commodo nulla facilisi nullam vehicula ipsum a. 
+                  Mauris nunc congue nisi vitae suscipit tellus mauris a diam..</p>
+                  <button type="button" class="btn btn-dark">Learn More!</button>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <i class="icon fas fa-bullseye fa-4x services-icon"></i>
+                <h3 class="feature-title">Elite Clientele</h3>
+                <p class="services-text">Fames ac turpis egestas maecenas. 
+                  Amet commodo nulla facilisi nullam vehicula ipsum a. 
+                  Mauris nunc congue nisi vitae suscipit tellus mauris a diam.</p>
+                  <button type="button" class="btn btn-dark">Learn More!</button>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <i class="icon fas fa-heart fa-4x services-icon"></i>
+                <h3 class="feature-title">Guaranteed to work.</h3>
+                <p class="services-text">Fames ac turpis egestas maecenas. 
+                  Amet commodo nulla facilisi nullam vehicula ipsum a. 
+                  Mauris nunc congue nisi vitae suscipit tellus mauris a diam.</p>
+                  <button type="button" class="btn btn-dark">Learn More!</button>
+              </div>
+            </div>
+      
+      
+          </div>
+
+
+        </div>
+
+      </section>
+
+  
+
+
+  
+<footer>
+  <div class="container-fluid">
+    <i class="social-icon fab fa-facebook-f footer-icon"></i>
+    <i class="social-icon fab fa-twitter footer-icon"></i>
+    <i class="social-icon fab fa-instagram footer-icon"></i>
+    <i class="social-icon fas fa-envelope footer-icon"></i>
+    <p class="footer-text">© Copyright 2022 PHP</p>
+  </div>
+
+</footer>
 </body>
 </html>
